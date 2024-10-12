@@ -51,10 +51,10 @@ services:
 
   # Go Application service
   app:
-    image: pankajm05/go-app:latest
+    image: pankajm05/verve-go-app:latest
     hostname: localhost
     build: .
-    container_name: go-app
+    container_name: verve-go-app
     ports:
       - "8080:8080"
     depends_on:

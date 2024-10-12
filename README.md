@@ -22,5 +22,6 @@ The service supports a single GET endpoint:
 // Assuming you are in the root directory of the repo.
 > docker-compose build
 > docker-compose up
+// Wait for the message: "Starting HTTP Server!" in the verve-go-app service
 // The API should be accessible on the url: http://localhost:8080/api/verve/accept
 ```

@@ -48,7 +48,7 @@ func InitDependencies(ctx context.Context) (*Dep, error) {
     // Initialize the producer
     d.producer = kafkaclient.NewProducer(cfg, pCfg)
     fmt.Println("Initialising Kafka producer")
-    err = d.producer.SendMessage(ctx, []byte("key"), []byte("Hello, Kafka!"))
+    err = d.producer.SendMessage(ctx, []byte("key"), []byte("Hello, Verve!"))
     if err != nil {
         return nil, err
     }
