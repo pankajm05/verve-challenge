@@ -1,0 +1,11 @@
+/vendor
+
+# IDE related files
+.idea
+.ijwb
+.tags
+.vscode
+
+# Project files
+request.log
+Core_Technical_Challenge.pdf
