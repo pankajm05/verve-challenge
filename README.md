@@ -17,6 +17,9 @@ The service supports a single GET endpoint:
 
 #### How to run:
 
+Docker Image Link: https://hub.docker.com/r/pankajm05/verve-go-app
+
+
 ```
 // clone the repository.
 // Assuming you are in the root directory of the repo.
